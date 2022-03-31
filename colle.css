@@ -1,0 +1,53 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+#bh {
+    display: block;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+
+}
+
+.we2 {
+    margin-left: 5%;
+
+}
+
+#cit {
+    text-align: center;
+}
+
+.fd {
+    text-align: center;
+}
+
+#bhu {
+    margin-left: 40%;
+}
+
+.lop {
+    background-color: lightslategray;
+    border: none;
+    border-radius: 12px;
+    padding: 0.5rem;
+}
+
+.lop:hover {
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 0%;
+    padding: .5rem 2rem .5rem 2rem;
+}
