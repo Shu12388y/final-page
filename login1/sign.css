@@ -1,0 +1,131 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+
+}
+
+.box {
+    text-align: center;
+    margin: 2rem 1rem 2rem 1rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cen {
+    text-align: center;
+    align-items: center;
+    margin: 1rem;
+
+}
+
+#lo {
+    margin: 2rem 3rem 1rem 3rem;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px grey;
+    height: fit-content;
+
+
+}
+
+#iop {
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kol {
+
+    justify-content: space-evenly;
+
+}
+
+@media (max-width:1060px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:890px) {
+    .kol {
+        margin: 0 auto;
+
+    }
+}
+
+@media (max-width:890px) {
+    .lop {
+        width: 90%;
+        height: 90%;
+
+    }
+}
+
+@media (max-width:930px) {
+    .lop {
+        width: 90%;
+        height: 90%;
+
+    }
+}
+
+@media (max-width:890px) {
+    .content {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:300px) {
+    #email {
+        width: 90%;
+    }
+}
+
+@media (max-width:300px) {
+    #password {
+        width: 90%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+#mop {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black
+}
+
+#mop:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+
+}
+
+#rtp {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#iop:hover {
+    background-color: lightskyblue;
+    color: black;
+    border-radius: 0px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 13px darkcyan;
+    border: 2px solid darkturquoise
+}

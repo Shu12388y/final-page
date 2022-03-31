@@ -1,0 +1,53 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.lop {
+    align-items: center;
+    padding: 1%;
+
+    margin: 7% 3% 7% 16%;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width:820px) {
+    #ui {
+        width: 120%;
+        height: 120%;
+
+    }
+}
+
+@media (max-width:420px) {
+    #ui {
+        width: 120%;
+        height: 120%;
+        margin: 0%;
+
+    }
+}
+
+@media (max-width:930px) {
+    #ui {
+        width: 90%;
+        height: 90%;
+
+    }
+}
+
+@media (max-width:1220px) {
+    #ui {
+        width: 90%;
+        height: 90%;
+
+    }
+}
